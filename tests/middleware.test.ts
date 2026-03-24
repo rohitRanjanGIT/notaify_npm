@@ -7,7 +7,7 @@ import { init, _reset } from '../src/notaify';
 import * as sender from '../src/sender';
 
 jest.mock('../src/sender', () => ({
-    resolveServerUrl: jest.fn((url?: string) => url ?? 'https://test.notaify.in/ingest'),
+    resolveServerUrl: jest.fn((url?: string) => url ?? 'https://test.notaify.vercel.app/ingest'),
     sendPayload: jest.fn().mockResolvedValue(true),
 }));
 

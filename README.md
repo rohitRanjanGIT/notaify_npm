@@ -24,7 +24,7 @@ npm install @notaify/node
 
 ## Get Your Credentials
 
-1. Sign up at [notaify.in](https://notaify.in)
+1. Sign up at [notaify.vercel.app](https://notaify.vercel.app)
 2. Create a project and configure your LLM provider (OpenAI, Claude, or Gemini)
 3. Generate an API key — you'll get an **API Key ID** and a **Secret API Key**
 4. Add them to your `.env`:

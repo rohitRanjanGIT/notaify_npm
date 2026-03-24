@@ -7,7 +7,7 @@ import * as sender from '../src/sender';
 
 // Mock the sender so no real HTTP calls are made
 jest.mock('../src/sender', () => ({
-    resolveServerUrl: jest.fn((url?: string) => url ?? 'https://test.notaify.in/api/package/nodexp/ingest'),
+    resolveServerUrl: jest.fn((url?: string) => url ?? 'https://test.notaify.vercel.app/api/package/nodexp/ingest'),
     sendPayload: jest.fn().mockResolvedValue(true),
 }));
 

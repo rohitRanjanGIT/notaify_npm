@@ -9,7 +9,7 @@
 import type { NotaifyPayload } from './types';
 
 /** Default production ingest endpoint. */
-const DEFAULT_SERVER_URL = 'https://notaify.in/api/package/nodexp/ingest';
+const DEFAULT_SERVER_URL = 'https://notaify.vercel.app/api/package/nodexp/ingest';
 
 /**
  * HTTP timeout in milliseconds.
