@@ -1,0 +1,28 @@
+# Source
+src/
+
+# Tests
+tests/
+jest.config.cjs
+coverage/
+
+# TypeScript configs
+tsconfig.json
+tsconfig.cjs.json
+tsconfig.esm.json
+tsconfig.types.json
+
+# Linting
+.eslintrc.json
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+node_modules/
+*.tgz
