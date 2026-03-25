@@ -14,7 +14,10 @@
         "error-tracking",
         "ai-powered"
     ],
-    "github": "https://github.com/rohitRanjanGIT/notaify_npm",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rohitRanjanGIT/notaify_npm"
+    },
     "license": "MIT",
     "author": "rohit",
     "type": "module",
